@@ -1,0 +1,56 @@
+.breadcrumb {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.breadcrumb a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.current {
+  color: var(--color-text-muted);
+}
+
+.meta {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.article {
+  padding-block: 2rem 3rem;
+}
+
+.prose {
+  max-width: 42rem;
+  color: var(--color-text);
+}
+
+.prose p {
+  margin: 0 0 1rem;
+  line-height: 1.65;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.back {
+  margin: 2rem 0 0;
+}
+
+.back a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back a:hover {
+  text-decoration: underline;
+}
